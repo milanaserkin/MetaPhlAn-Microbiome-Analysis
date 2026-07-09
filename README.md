@@ -40,6 +40,9 @@ Future improvements to this pipeline could include:
 * **Automation:** Consolidating the bash pipeline and the R visualization steps into a single automated workflow manager (like Nextflow).
 
 ### Repository Structure
+
+```text
+
 ├── scripts/
 │   ├── run_metaphlan.sh                     # SLURM script to merge FASTQ files and run MetaPhlAn profiling
 │   └── MetaPhlAn-Microbiome-Analysis.rmarkdown # R script for generating PCoA plots, heatmaps, and sparsity tables
