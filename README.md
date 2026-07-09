@@ -17,7 +17,7 @@ Samples represent water replicates collected across the four distinct sites ment
 * **Infrastructure:** SLURM (High-Performance Computing cluster)
 
 ### Pipeline Workflow
-Read Concatenation -> Taxonomic Profiling (MetaPhlAn) -> Table Merging -> Taxonomic Filtering (grep/sed) -> Diversity Visualization (Heatmap & PCoA)
+Read Concatenation -> Taxonomic Profiling (MetaPhlAn) -> Table Merging -> Data Transformation & Parsing (Bash/grep/sed) -> Diversity Visualization (Heatmap & PCoA)
 
 ### Results
 Starting with the raw FASTQ files, reads were profiled and merged into abundance tables, filtering specifically for genus and species level classifications. 
