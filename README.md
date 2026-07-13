@@ -22,6 +22,8 @@ Read Concatenation -> Taxonomic Profiling (MetaPhlAn) -> Table Merging -> Data T
 ### Results
 Starting with the raw FASTQ files, reads were profiled and merged into abundance tables, filtering specifically for genus and species level classifications. 
 
+<img width="691" height="484" alt="PCoA" src="https://github.com/user-attachments/assets/2d1ddb00-3d75-4ae9-83db-5cdb6d72f394" />
+
 **Community Similarity**
 Based on Bray-Curtis distance calculations, the ATE and DSA environments share highly similar microbial community structures. The Principal Coordinates Analysis (PCoA) confirmed that geographic location is the primary driver of the microbiome, with 95.2% of the total variance explained by the first two axes (PCoA 1: 52.4%, PCoA 2: 42.8%).
 
